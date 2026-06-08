@@ -8,7 +8,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import systemPromptRaw from "./aiSystemPrompt.txt?raw";
 
-const API_KEY = "AIzaSyADDR1mFuHoyNH6hpy0X6Du61_NH3DRm5w"; // <-- Replace this
+const API_KEY = ""; // <-- Replace this
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 39 40% 96%;
+    --foreground: 30 15% 18%;
+
+    --card: 38 45% 98%;
+    --card-foreground: 30 15% 18%;
+
+    --popover: 38 45% 98%;
+    --popover-foreground: 30 15% 18%;
+
+    --primary: 33 55% 45%;
+    --primary-foreground: 38 45% 98%;
+
+    --secondary: 37 30% 90%;
+    --secondary-foreground: 30 15% 18%;
+
+    --muted: 37 25% 92%;
+    --muted-foreground: 30 10% 45%;
+
+    --accent: 37 30% 88%;
+    --accent-foreground: 30 15% 18%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 35 25% 85%;
+    --input: 35 25% 85%;
+    --ring: 33 55% 45%;
+
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-sm border border-beige-200 rounded-2xl shadow-sm;
+  }
+
+  .triage-badge {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold;
+  }
+
+  .triage-0 { @apply bg-gray-100 text-gray-600; }
+  .triage-1 { @apply bg-green-100 text-green-700; }
+  .triage-2 { @apply bg-yellow-100 text-yellow-700; }
+  .triage-3 { @apply bg-orange-100 text-orange-700; }
+  .triage-4 { @apply bg-red-100 text-red-700; }
+  .triage-5 { @apply bg-purple-100 text-purple-700; }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(37, 25%, 92%);
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(35, 25%, 75%);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(33, 40%, 60%);
+}
+
+@keyframes waveform {
+  0%, 100% { transform: scaleY(0.4); }
+  50% { transform: scaleY(1); }
+}
+
+.animate-waveform {
+  animation: waveform 0.8s ease-in-out infinite;
+}

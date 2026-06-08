@@ -36,7 +36,7 @@ MediQueue automates the intake process with an AI Chatbot that determines a clin
 * **Head Department View:** Clear View of occupied beds across the hospital. Can dynamically change hospital zones to accomodate overflow.
 
 ## Team Members
-![](Readme/EdmatPic.png)
+![](Readme/EdmatPic.jpeg)
 * **Jeffrey Chua** || **Choy Kah Chun** || **Yeak Li Ying** || **Kelvin Lai** || **Teo Yong Yi**
 
 ## Achievement

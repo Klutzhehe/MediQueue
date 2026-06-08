@@ -38,7 +38,6 @@ MediQueue automates the intake process with an AI Chatbot that determines a clin
 
 ## Team Members
 ![](Readme/EdmatPic.jpeg)
-* **Jeffrey Chua** || **Choy Kah Chun** || **Yeak Li Ying** || **Kelvin Lai** || **Teo Yong Yi**
+**Jeffrey Chua** || **Choy Kah Chun** || **Yeak Li Ying** || **Kelvin Lai** || **Teo Yong Yi**
 
-## Achievement
-* **1st Runner Up** - **EDMAT47**
+Developed with ♥️ during EDMAT 47 - 1st Runner Up!!

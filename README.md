@@ -1,6 +1,7 @@
 # MediQueue 
 
-** Never wait in a hospital lobby again!! Register now, Come Later!!
+**Never wait in a hospital lobby again!! Register now, Come Later!!**
+
 MediQueue is a healthcare optimization designed to eliminate overcrowded hospital waiting rooms. By leverating AI-driven triage scoring, real-time queue management, and interactive dashboards for medical staff, MediQueue allows patients to arrive **exactly when it's their turn**, transforming the stressful hospital waiting experience into a streamlined, automated workflow. 
 
 ## The Problem & The Solution

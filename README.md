@@ -32,9 +32,12 @@ MediQueue automates the intake process with an AI Chatbot that determines a clin
 ### 4. Unified Doctors Portal
 ![](Readme/DoctorPage.png)
 * **Doctor View:** Clear View of upcoming appointments and schedules.
-* 
 ![](Readme/DepartmentHead.png)
 * **Head Department View:** Clear View of occupied beds across the hospital. Can dynamically change hospital zones to accomodate overflow.
 
 ## Team Members
+![](Readme/EdmatPic.png)
 * **Jeffrey Chua** || **Choy Kah Chun** || **Yeak Li Ying** || **Kelvin Lai** || **Teo Yong Yi**
+
+## Achievement
+* **1st Runner Up** - **EDMAT47**

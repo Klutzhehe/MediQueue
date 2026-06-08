@@ -11,15 +11,15 @@ Traditional ERs and clinics suffer from severe overcrowding, long waiting times,
 * **The Solution:**
 MediQueue automates the intake process with an AI Chatbot that determines a clinical triage score. Patients are dynamically queued and notified of their estimated treatment time, enabling them to wait safely and comfortably at home until summoned.
 ![](Readme/MainMenu.png)
-
+---
 ## Key Features
-![](Readme/AIChat.png)
 ### 1. AI-Driven Patient Triage (ChatBot)
+![](Readme/AIChat.png)
 * patients interacts with an intelligent, conversational AI Chatbot upon opening the app.
 * The chatbot gathers symptoms, medical history, and vital signs to determine an initial **Triage Score** based on standard clinical guidelines.
 
-![](Readme/ReceptionistPage.png)
 ### 2. Receptionist Review & Verification Dashboard
+![](Readme/ReceptionistPage.png)
 * AI Results and Triage scores are instantly forwarded to a centralized dashboard for the hospital receptionist for confirmation.
 * Receptionist can review, modify and approve the AI's assessment to ensure the correct scoring.
 * After confirmation, patients will be placed into the queueing system.

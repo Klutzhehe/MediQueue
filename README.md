@@ -6,7 +6,9 @@ MediQueue is a healthcare optimization designed to eliminate overcrowded hospita
 ## The Problem & The Solution
 * **The Problem:** 
 Traditional ERs and clinics suffer from severe overcrowding, long waiting times, and inefficient triaging. Patients with minor ailments waits for hours next to highly infectious individuals, while medical staff are overwhelmed by manual intake.
+
 * **The Solution:**
+!()[Readme/MainMenu.png]
 MediQueue automates the intake process with an AI Chatbot that determines a clinical triage score. Patients are dynamically queued and notified of their estimated treatment time, enabling them to wait safely and comfortably at home until summoned.
 
 ## Key Features
